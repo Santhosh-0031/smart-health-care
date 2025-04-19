@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+/* index.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(-45deg, #d4fc79, #96e6a1, #84fab0, #8fd3f4);
+    background-size: 300% 300%;
+    animation: gradientMove 20s ease infinite;
+    color: #1a202c;
+  }
+  
+  @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
