@@ -2,7 +2,7 @@
   width: 100%;
   overflow-x: hidden;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #00c9a7, #92fe9d);
+  background: linear-gradient(135deg, #f5dfff, #e6f0ff, #d4fff9, #fdeeff);
   background-size: 300% 300%;
   animation: gradientMove 20s ease infinite;
   color: #1a202c;
